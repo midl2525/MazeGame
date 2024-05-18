@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b211f7c7b4ee96740bcfd9a58a3c1071, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  _levelConfig:
+  - PrefabLevel: {fileID: 8010706248541111145, guid: 229374175f7b9cc4f9476bdc6eb2652f, type: 3}
+    BallSize: 0.2
+    StartPosition: {x: 0, y: 0}
+    Profit: 10
+  - PrefabLevel: {fileID: 7596323619398989539, guid: 30ae3555f40abd144abc7edc252038e4, type: 3}
+    BallSize: 0.2
+    StartPosition: {x: 0, y: -0.5}
+    Profit: 10
+  - PrefabLevel: {fileID: 3033088983966119161, guid: 416909c050af8084fa45b1c2f15b3b5b, type: 3}
+    BallSize: 0.15
+    StartPosition: {x: 0.8, y: 0.5}
+    Profit: 15
+  - PrefabLevel: {fileID: 8250544986887028042, guid: 2c0c7d15c022c054c8ce616950e075d0, type: 3}
+    BallSize: 0.18
+    StartPosition: {x: -0.25, y: -1.15}
+    Profit: 15
+  - PrefabLevel: {fileID: 6219077447201904863, guid: e2ffd684f3364e3408006cba51dfe498, type: 3}
+    BallSize: 0.18
+    StartPosition: {x: 0.23, y: -0.27}
+    Profit: 20
+  - PrefabLevel: {fileID: 4321696949729922934, guid: 06f203d3e20d286428ce5f65eb4a83ec, type: 3}
+    BallSize: 0.115
+    StartPosition: {x: 0, y: 0}
+    Profit: 20
